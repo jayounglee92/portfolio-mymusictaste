@@ -1,0 +1,91 @@
+@media all and (min-width:768px) and (max-width:1279px){ 
+  /*################# stickyMenu ###############*/
+   .stickyMenu{ left:10px; }
+  /*################# page2 ###############*/
+   #intro{background-size:100%; }
+   .words{ width:70%; }
+
+  /*################# page3 ###############*/
+   .makeList{ width:640px; top:10%; margin-left:-320px; }
+   .makeList div{ width:320px; float:left; }/* 이미지 사이즈 320*295 */
+   .makeList div:last-child{ float:none; margin:0 auto; }
+}
+
+
+@media all and (min-width:426px) and (max-width:767px){ 
+   /*################# stickyMenu ###############*/
+	.stickyMenu{ display:none; }
+
+   /*################# page1 ###############*/
+	.bgDigits{ display:none; }
+	.video{ width:350px; height:225px; position:static; margin:120px auto 60px; }
+	.video video{ display:none; }
+	.video p{ display:block; }
+	.video p img{ width:100%; }
+	.mainText{ letter-spacing:4px; line-height:2em; }
+	.mainText p{ width:100%; font-size:16px; line-height:1.5em; position:absolute; left:0; top:50px; }
+	.mainText h2{ margin-bottom:20px; }
+
+  /*################# page2 ###############*/
+   #intro{ background-size:100%; background-position:0 0; }
+   .words{ width:80%; position:static; margin:180px auto 0; }
+   .words h2{ letter-spacing:3px; line-height:1.5em; }
+   .words p{ letter-spacing:1px; line-height:1.5em; }
+
+  /*################# page3 ###############*/
+   .makeList{ display:none; }
+   .m_makeList{ display:block; width:340px; margin:40px auto 0; }/* 이미지 사이즈 340*108 */
+   .m_makeList ul{ width:100%; }
+   .m_makeList ul{ content:""; display:block; clear:both; }
+   .m_makeList li{ width:340px; position:relative; }
+   .m_makeList li img{ width:100%; }
+   .m_makeList li p{ width:120px; height:40px; position:absolute; right:10px; bottom:10px; }
+   .m_makeList li p a{ display:block; width:100%; height:100%; background-color:#000; color:#fff; font-size:20px; line-height:40px; text-align:center; font-weight:bold; letter-spacing:3px; }
+	
+   .socialM{width:340px; height:80px; margin:50px auto 0;}
+   .followList{ margin:0; float:left; }
+   .m_share{ display:block; width:50px; height:50px; float:right; margin:0; }
+   .m_share a{ display:block; width:100%; height:100%; }
+   .m_share a img{ width:100%; }
+}
+
+	
+@media all and (min-width:375px) and (max-width:425px){ 
+
+  /*################# stickyMenu ###############*/
+   .stickyMenu{ display:none; }
+
+  /*################# page1 ###############*/
+   .bgDigits{ display:none; }
+   .video{ width:350px; height:225px; position:static; margin:120px auto 60px; }
+   .video video{ display:none; }
+   .video p{ display:block; }
+   .video p img{ width:100%; }
+   .mainText{ letter-spacing:4px; line-height:2em; }
+   .mainText p{ width:100%;font-size:16px; line-height:1.5em; position:absolute; left:0; top:50px; }
+   .mainText h2{ width:100%; margin:0 auto 20px; }
+
+
+
+  /*################# page2 ###############*/
+   #intro{ background-size:100%; background-position:60px 0; }
+   .words{ width:80%; position:static; margin:30px auto 0; }
+   .words h2{ letter-spacing:3px; line-height:1.4em; }
+   .words p{ letter-spacing:0.5px; line-height:1.3em; }
+
+
+  /*################# page3 ###############*/
+   .makeList{ display:none; }
+   .m_makeList{ display:block; width:340px; margin:40px auto 0; } /* 이미지 사이즈 340*108 */
+   .m_makeList ul{ width:100%; }
+   .m_makeList li{ width:100%; position:relative; }
+   .m_makeList li img{ width:100%; }
+   .m_makeList li p{ width:120px; height:40px; position:absolute; right:10px; bottom:10px; }
+   .m_makeList li p a{ display:block; width:100%; height:100%; background-color:#000; color:#fff; font-size:20px; line-height:40px; text-align:center; font-weight:bold; letter-spacing:3px; }
+
+   .followList{ margin:30px 0 0 20px; float:left; }
+   .m_share{ display:block; width:50px; height:50px; float:right; margin:40px 20px 0 0; }
+   .m_share a{ display:block; width:100%; height:100%; }
+   .m_share a img{ width:100%; }
+	 
+}
