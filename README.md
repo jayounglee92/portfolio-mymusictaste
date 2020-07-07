@@ -1,4 +1,4 @@
-# portfolio-mymusictaste
+# 🎵 portfolio-mymusictaste
 
 > This is a personal project for portfolio.
 
