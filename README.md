@@ -1,10 +1,15 @@
 # portfolio-mymusictaste
 
-portfolio-mymusictaste
-포트폴리오 개인 작업물입니다.
+> This is a personal project for portfolio.
 
-## Published by Github
+![Showing UI](/_info-img/info-mt-01.gif)
 
-[https://jayounglee92.github.io/portfolio-mymusictates/](https://jayounglee92.github.io/portfolio-mymusictates/)
+## Description
+- Skill : HTML, CSS, Javascript, Responsive Web
+- library : jQuery
+- Tool : VSCode
+- Period : About 1 Week
+- URL : https://jayounglee92.github.io/portfolio-mymusictaste/
 
-## Changelog
+## Contents
+- [x] index.html
